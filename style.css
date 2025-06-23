@@ -9,7 +9,7 @@ span{
     color: rgb(4, 239, 4);
 }
 .banner{
-    background-image:linear-gradient(#00000000,#000000),url(/images/background.jpg);
+    background-image:linear-gradient(#00000000,#000000),url(background.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ h2{
 }
 
 .home-blog{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.059),rgba(0, 0, 0, 0.388)),url(/images/services.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.059),rgba(0, 0, 0, 0.388)),url(services.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ text-transform: capitalize;
 
 /* aboutus */
 .aboutus-banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.633),rgba(0, 0, 0, 0.748)),url(/images/aboutbg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.633),rgba(0, 0, 0, 0.748)),url(aboutbg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
