@@ -1,0 +1,99 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+}
+span{
+    color: rgb(4, 239, 4);
+}
+.banner{
+    background-image:linear-gradient(#00000000,#000000),url(/images/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+    
+}
+
+h1{
+    font-weight: bold;
+    text-transform:capitalize;
+    color:white;
+
+}
+h1,span{
+color: #3ae481; 
+font-weight: bold; 
+}
+
+h4{
+    font-weight: bold;
+}
+
+h3{
+    color: #00fe6a;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+.home-blog{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.059),rgba(0, 0, 0, 0.388)),url(/images/services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 60px;
+    background-attachment: fixed;
+}
+
+.home-blog-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+height: 50vh;
+text-transform: capitalize;
+}
+/* ==================================================================== */
+
+/* aboutus */
+.aboutus-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.633),rgba(0, 0, 0, 0.748)),url(/images/aboutbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.aboutus-banner-text{
+display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+}
