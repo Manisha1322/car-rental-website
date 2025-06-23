@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- bootstrap css link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- bootstrap icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- stylesheet link -->
+<link rel="stylesheet" href="style.css">
+
+<title>CarBook</title>
+</head>
+<body>
+
+<!-- nav bar started -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
+<div class="container-fluid ">
+<a class="navbar-brand logo">Car<span>Book</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="navbar-nav ms-auto">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="services.html">Services</a>
+    <a class="nav-link" href="blog.html">Blog</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+  </div>
+</div>
+</div>
+</nav>
+<!-- nav bar ended -->
+
+<!-- banner start -->
+<div class="banner">
+  <div class="banner-text">
+  <h1>fast & easy way to rent a car</h1>
+  <p>Looking for a reliable and affordable car rental service? At <b>Car</b><span>Book</span>, we offer a wide range of vehicles to suit your travel needs. Whether you need a compact car for city trips, a luxury sedan for business travel, or an SUV for family adventures, we've got you covered.</p>
+  </div>
+</div>
+<!-- banner ended -->
+
+<!--trip booking start -->
+<div class="container mt-5">
+<div class="row">
+<div class="col-lg-6 bg-primary">-
+<h4 class="text-white mt-4">Make Your Trip</h4>
+<form>
+
+<div class="my-4">
+<label class="form-label">
+<h6 class="text-white text-capitalize">pick-up location</h6></label>
+<input type="text" class="form-control" placeholder="city, airpot, station, etc"> 
+</div>
+
+<div class="my-4">
+  <label class="form-label">
+  <h6 class="text-white text-capitalize">drop-up location</h6></label>
+  <input type="text" class="form-control" placeholder="city, airpot, station, etc"> 
+  </div>
+
+  <div class="row">
+  <div class="col-lg-6">
+  <div class="mt-3">
+  <label class="form-label"><h6 class="text-white text-capitalize">pick-up date</h6></label> 
+  <input type="date" class="form-control">
+  </div> 
+  </div>  
+
+  <div class="col-lg-6">
+  <div class="mt-3">
+  <label class="form-label"><h6 class="text-white text-capitalize">pick-up date</h6></label> 
+  <input type="date" class="form-control mb-4">
+  </div> 
+  </div>  
+  </div>
+
+  <div class="mt-2 d-grid gap-2 mb-5">
+  <button type="submit"class=" btn btn-success text-capitalize mt-3"> rent a car</button>
+  </div>
+
+</form>  
+</div> 
+
+
+<div class="col-lg-6 mt-5">
+<div class="row justify-content-center">
+ 
+  <h4 class="text-capitalize text-center mt-5">better way to rent your cars</h4>
+
+  
+  <div class="col-lg-4 mt-5 text-center">
+    <h1 class="text-center"><i class="bi bi-geo-alt text-primary"></i></h1>
+    <h5 class="text-capitalize text-center">choose your pick-up location</h5>
+  </div>
+
+
+  <div class="col-lg-4 mt-5 text-center">
+    <h1 class="text-center"><i class="bi bi-shield-check text-primary"></i></h1>
+    <h5 class="text-capitalize text-center">select the best deal</h5>
+  </div>
+
+  
+  <div class="col-lg-4 mt-5 text-center">
+    <h1 class="text-center"><i class="bi bi-car-front-fill text-primary"></i></h1>
+    <h5 class="text-capitalize text-center">reserve your rental car</h5>
+  </div>
+
+  <div class="mt-2 d-grid gap-2  mt-5"><button type="submit"class=" btn btn-primary text-capitalize  "> rent a car</button></div>
+  
+</div>
+</div>
+
+
+</div>
+</div>      
+<!--trip booking end --> 
+
+
+<!-- featured vehicles start -->
+<div class="container mt-5">
+<div class="featured-vehicles">
+<h3 class="text-center">WHAT WE OFFER</h3>
+<h2 class="text-drak text-center mt-2">Featured Vehicles</h2>  
+</div> 
+
+<div class="row gy-3">
+  <div class="col-lg-4"> 
+    <div class="card card text-center">
+      <img src="/images/Tesla Model S – Tesla.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Name- Tesla Model S </h5>
+        <p class="card-text"> Brand- Tesla</p>
+        <a href="#" class="btn btn-primary ">Book Now</a>
+        <a href="#" class="btn btn-success ">Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4"> 
+    <div class="card card text-center">
+      <img src="/images/car2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Name- Mercedes-Benz S-Class</h5>
+        <p class="card-text"> Brand-Mercedes-Benz</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+        <a href="#" class="btn btn-success">Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4"> 
+    <div class="card card text-center">
+      <img src="/images/car3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Name- BMW M5</h5>
+        <p class="card-text"> Brand- BMW</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+        <a href="#" class="btn btn-success">Details</a>
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+<div class="row gy-3 mt-5">
+  <div class="col-lg-4"> 
+    <div class="card card text-center">
+      <img src="/images/car4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Name- Porsche 911 </h5>
+        <p class="card-text"> Brand- Porsche</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+        <a href="#" class="btn btn-success">Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4"> 
+    <div class="card card text-center">
+      <img src="/images/car5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Name- Audi RS7 </h5>
+        <p class="card-text"> Brand- Audi</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+        <a href="#" class="btn btn-success">Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4"> 
+    <div class="card card text-center">
+      <img src="/images/car6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Name- Lamborghini Huracán</h5>
+        <p class="card-text"> Brand- Lamborghini</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+        <a href="#" class="btn btn-success">Details</a>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+ <!-- featured vehicles end -->
+
+
+<!-- aboutus start -->
+<div class="container mt-5">
+<div class="aboutus">
+<div class="row bg-secondary">
+  
+<div class="col-lg-6 my-3">
+  <img src="/images/a.webp" alt="" class="img-fluid " > 
+</div>
+
+<div class=" aboutus-text col-lg-6 mt-1 p-3">
+<h2 class="text-center text-white">ABOUT US</h2>
+<p class="text-white mt-4 ">Welcome to CAR<SPAn>BOOK</SPAn>, your ultimate destination for everything automotive! Whether you’re looking to explore the latest car models, compare features, read expert reviews, or book your dream car, we’ve got you covered.</p>
+
+<p class="text-white">we are passionate about cars and committed to providing a seamless platform where car enthusiasts, buyers, and sellers can connect. Our goal is to simplify the car-buying journey by offering comprehensive insights, detailed specifications, and expert recommendations all in one place.</p> 
+
+<p class="text-white">we believe that finding the right car should be an enjoyable and informed experience. Our mission is to empower you with all the information and tools you need to make the best decision.</p>
+
+<a href=""class="btn btn-primary">Search Vehicle</a>
+</div>
+
+</div>
+</div>
+</div>
+<!-- aboutus end -->
+
+
+
+<!-- services start -->
+<div class="container mt-5">
+<div class="services">
+<div class="row">
+  <h2 class="text-center">Our Latest Services</h2>
+  <div class="col-lg-3">
+    <div class="services-card">
+      <br><br><h2 class="text-center"><i class="bi bi-car-front-fill text-dark mt-5 rounded-circle bg-primary p-3"></i></h2>
+
+    <div class="services-card-text">
+      <h6 class="text-center fw-bold mt-4">Weeding Ceremony</h6>  
+      <p class="text-center">Book the best car as per your choice</p>  
+    </div>  
+    
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div class="services-card">
+      <br><br><h2 class="text-center"><i class="bi bi-car-front-fill text-dark mt-5 rounded-circle bg-primary p-3"></i></h2>
+
+    <div class="services-card-text">
+      <h6 class="text-center fw-bold mt-4">City Transfer</h6>  
+      <p class="text-center">Book the best car as per your choice</p>  
+    </div>  
+    
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div class="services-card">
+      <br><br><h2 class="text-center"><i class="bi bi-car-front-fill text-dark mt-5 rounded-circle bg-primary p-3"></i></h2>
+
+    <div class="services-card-text">
+      <h6 class="text-center fw-bold mt-4">Airport Transfer</h6>  
+      <p class="text-center">Book the best car as per your choice</p>  
+    </div>  
+    
+    </div>
+  </div>  
+
+  <div class="col-lg-3">
+    <div class="services-card">
+      <br><br><h2 class="text-center"><i class="bi bi-car-front-fill text-dark mt-5 rounded-circle bg-primary p-3"></i></h2>
+
+    <div class="services-card-text">
+      <h6 class="text-center fw-bold mt-4">Whole City Transfer</h6>  
+      <p class="text-center">Book the best car as per your choice</p>  
+    </div>  
+    
+    </div>
+  </div>  
+
+</div>  
+</div>  
+</div> 
+<!-- services end -->
+
+
+<!-- blog start -->
+<div class="home-blog">
+  <div class="home-blog-text">
+    <h2>do you want to earn with <br>us? so don't be late</h2>
+  <a href="" class="btn btn-primary">Became A Driver</a>
+  </div>
+  
+</div> 
+ <!--blog end  -->
+
+
+
+<!-- our clients start -->
+<div class="container mt-5">
+  <h2 class="text-center">HAPPY CLIENTS</h2>
+
+<div class="row">
+<div class="col-lg-3 mt-4">
+  <div class="card card text-center">
+    <img src="/images/p1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Name- Person1</h5>
+      <p class="card-text"> "Loved the experience! The process was hassle-free, and the car was in perfect condition." 🚘🔥</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 mt-4">
+  <div class="card card text-center">
+    <img src="/images/p2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Name-Person2</h5>
+      <p class="card-text">"Super smooth rental process! The car was clean and well-maintained. Definitely coming back!" 🚗💨</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 mt-4">
+  <div class="card card text-center">
+    <img src="/images/p3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Name-Person3</h5>
+      <p class="card-text"> "Fantastic service! Renting a car was quick and easy. Highly recommended, and I’ll be back for sure!" 👍😊</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 mt-4">
+  <div class="card card text-center">
+    <img src="/images/p4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Name-Person4</h5>
+      <p class="card-text">"Had a great time! The car was just what I needed, and the staff was super helpful. Will rent again soon!" 🚙✨</p>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- our clients start -->
+
+
+
+<!-- recent blog start -->
+<div class="container mt-5">
+<h2 class="text-center">Recent Blog</h2>
+
+<div class="row gy-3 mt-3">
+  <div class="col-lg-4"> 
+    <div class="card card">
+      <img src="/images/blog1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-primary">April 01, 2025</h5>
+        <p class="card-text">"Loved every moment of the ride! The car was in perfect condition, and the experience was top-notch!"</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4"> 
+    <div class="card card ">
+      <img src="/images/blog2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title  text-primary"> April 05, 2025</h5>
+        <p class="card-text">"Enjoyed the ride to the fullest! The car handled great, and the journey was fantastic! 😊🚗"</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4"> 
+    <div class="card card">
+      <img src="/images/blog3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title  text-primary"> April 15, 2025</h5>
+        <p class="card-text">"Had an amazing ride! Smooth, comfortable, and absolutely enjoyable. Can't wait for the next one"</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>  
+<!-- recent blog end -->
+
+
+
+<!-- start -->
+ <div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-lg-3 bg-primary p-5">
+      <h3 class="text-dark text-center"><span class=text-white>60</span> Year<br>Experienced</h3>
+    </div>
+
+    <div class="col-lg-3  bg-dark-subtle p-5">
+      <h3 class="text-dark text-center"><span class=text-primary>1,090</span> Total<br>Cars</h3>
+    </div>
+
+    <div class="col-lg-3  bg-dark-subtle p-5">
+      <h3 class="text-dark text-center"><span class=text-primary>62,345</span><br>Happy Customers</h3>
+    </div>
+
+    <div class="col-lg-3 bg-dark-subtle p-5">
+      <h3 class="text-dark text-center"><span class=text-primary>67</span> Total<br>Branches</h3>
+    </div>
+  </div>
+
+
+
+ </div>
+<!-- end -->
+
+
+
+<!-- footer start -->
+ <div class="container-fluid bg-dark">
+  <div class="container">
+
+    <div class="row p-5">
+
+      <div class="col-lg-3 ">
+        <h5 class="mt-4 text-white"><b>Car<span>Book</span></b></h5>
+        <p class="text-white">we are passionate about cars and committed to providing a seamless platform where car enthusiasts and sellers can connect. Our goal is to simplify the car-buying journey by offering comprehensive insights, detailed specifications, and expert recommendations all in one place.</p>
+       <a href=""class="bi bi-twitter-x text-white me-2"></a>
+       <a href=""class="bi bi-instagram text-white me-2"></a>
+       <a href=""class="bi bi-linkedin text-white me-2"></a>
+       <a href=""class="bi bi-facebook text-white me-2"></a>
+       <a href=""class="bi bi-whatsapp text-white me-2"></a>
+
+      </div>
+
+      <div class="col-lg-3 mt-4   ">
+        <b><h5 class="text-white ">Information</h5></b>
+        <p class="text-white mt-4">About</p>
+        <p class="text-white">Services</p>
+        <p class="text-white">Term and Conditions</p>
+        <p class="text-white">Best Price Guarantee</p>
+      </div>
+
+      <div class="col-lg-3 mt-4">
+        <b><h5 class="text-white ">Customer Support</h5></b>
+        <p class="text-white mt-4">FAQ</p>
+        <p class="text-white">Payment Options</p>
+        <p class="text-white">Booking Tips</p>
+        <p class="text-white">How it works</p>
+      </div>
+
+      <div class="col-lg-3 mt-4">
+        <b><h5 class="text-white">Have a Questions?</h5></b>
+        <p class="text-white mt-4"> <i class="bi bi-geo-alt-fill"></i> E-92, Phase-8 Mohali</p>
+        <p class="text-white"><i class="bi bi-telephone-fill"></i> +1234567890</p>
+        <p class="text-white"><i class="bi bi-envelope-fill"></i> info@yourdomain.</p>
+      </div>
+
+    </div>
+  </div>
+ </div>
+<!-- footer end -->
+
+
+
+</body>
+
+<!-- bootstrap script link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
